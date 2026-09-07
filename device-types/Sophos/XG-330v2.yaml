@@ -1,0 +1,51 @@
+---
+manufacturer: Sophos
+model: XG 330 Rev. 2
+part_number: XG33T2HUS
+u_height: 1
+is_full_depth: false
+airflow: front-to-rear
+comments: |
+  Sophos XG 330 Rev. 2 security appliance. The rear panel includes a
+  proprietary connector for an optional second external power supply such as
+  the Sophos XRP2000 External Redundant Power Supply.
+console-ports:
+  - name: COM Serial
+    type: rj-45
+  - name: COM USB
+    type: usb-micro-b
+interfaces:
+  - name: Port1
+    type: 1000base-t
+  - name: Port2
+    type: 1000base-t
+  - name: Port3
+    type: 1000base-t
+  - name: Port4
+    type: 1000base-t
+  - name: Port5
+    type: 1000base-t
+  - name: Port6
+    type: 1000base-t
+  - name: Port7
+    type: 1000base-t
+  - name: Port8
+    type: 1000base-t
+  - name: Port9
+    type: 1000base-x-sfp
+  - name: Port10
+    type: 1000base-x-sfp
+  - name: Port11
+    type: 10gbase-x-sfpp
+  - name: Port12
+    type: 10gbase-x-sfpp
+module-bays:
+  - name: FleXi Port Bay
+    position: A
+power-ports:
+  - name: Internal PSU
+    type: iec-60320-c14
+  - name: Redundant PSU Connector
+    type: other
+    description: Proprietary connector for optional Sophos XRP2000 External Redundant Power Supply
+
