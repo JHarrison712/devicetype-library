@@ -1,0 +1,49 @@
+---
+manufacturer: Mellanox
+model: SN2100B
+u_height: 1
+is_full_depth: true
+comments: "[SN2100B](https://network.nvidia.com/files/doc-2020/pb-sn2100.pdf). Add subinterface for breakout cables."
+console-ports:
+  - name: con0
+    type: rj-45
+power-ports:
+  - name: psu0
+    type: iec-60320-c14
+  - name: psu1
+    type: iec-60320-c14
+interfaces:
+  - name: eth0
+    type: 1000base-t
+  - name: swp1
+    type: 40gbase-x-qsfp28
+  - name: swp2
+    type: 40gbase-x-qsfp28
+  - name: swp3
+    type: 40gbase-x-qsfp28
+  - name: swp4
+    type: 40gbase-x-qsfp28
+  - name: swp5
+    type: 40gbase-x-qsfp28
+  - name: swp6
+    type: 40gbase-x-qsfp28
+  - name: swp7
+    type: 40gbase-x-qsfp28
+  - name: swp8
+    type: 40gbase-x-qsfp28
+  - name: swp9
+    type: 40gbase-x-qsfp28
+  - name: swp10
+    type: 40gbase-x-qsfp28
+  - name: swp11
+    type: 40gbase-x-qsfp28
+  - name: swp12
+    type: 40gbase-x-qsfp28
+  - name: swp13
+    type: 40gbase-x-qsfp28
+  - name: swp14
+    type: 40gbase-x-qsfp28
+  - name: swp15
+    type: 40gbase-x-qsfp28
+  - name: swp16
+    type: 40gbase-x-qsfp28
